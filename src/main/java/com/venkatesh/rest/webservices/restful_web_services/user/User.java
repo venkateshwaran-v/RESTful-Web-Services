@@ -3,21 +3,21 @@ package com.venkatesh.rest.webservices.restful_web_services.user;
 import java.time.LocalDate;
 
 public class User {
-    private int id;
+    private Integer id;
     private String name;
     private LocalDate birthDate;
 
-    public User(int id, String name, LocalDate birthDate) {
+    public User(Integer id, String name, LocalDate birthDate) {
         this.id = id;
         this.name = name;
         this.birthDate = birthDate;
     }
 
-    public int getId() {
+    public Integer getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(Integer id) {
         this.id = id;
     }
 
@@ -29,11 +29,11 @@ public class User {
         this.name = name;
     }
 
-    public LocalDate getBirthData() {
+    public LocalDate getBirthDate() {
         return birthDate;
     }
 
-    public void setBirthData(LocalDate birthDate) {
+    public void setBirthDate(LocalDate birthDate) {
         this.birthDate = birthDate;
     }
 
