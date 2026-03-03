@@ -11,7 +11,7 @@
 	<groupId>com.venkatesh.rest.webservices</groupId>
 	<artifactId>resful-web-services</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>resful-web-services</name>
+	<name>restful-web-services</name>
 	<description>REST web services using Spring Boot</description>
 	<url/>
 	<licenses>
