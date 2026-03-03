@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.venkatesh.rest.webservices</groupId>
-	<artifactId>resful-web-services</artifactId>
+	<artifactId>restful-web-services</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>resful-web-services</name>
+	<name>restful-web-services</name>
 	<description>REST web services using Spring Boot</description>
 	<url/>
 	<licenses>
@@ -41,6 +41,17 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-webmvc</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-validation</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springdoc</groupId>
+			<artifactId>springdoc-openapi-starter-webmvc-ui</artifactId>
+			<version>3.0.1</version>
 		</dependency>
 
 		<dependency>
