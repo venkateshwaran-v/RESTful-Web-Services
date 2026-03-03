@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.venkatesh.rest.webservices</groupId>
-	<artifactId>resful-web-services</artifactId>
+	<artifactId>restful-web-services</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>restful-web-services</name>
 	<description>REST web services using Spring Boot</description>
